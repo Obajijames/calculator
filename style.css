@@ -27,13 +27,16 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
-button{
+.button{
     height: 60px;
     width: 60px;
     background-color: rgb(9, 37, 37);
     font-size: 2rem;
     color: white;
     border-color: rgb(9, 37, 37);
+}
+.button:hover{
+    color: blueviolet;
 }
 .red{
     background-color: red;
@@ -50,6 +53,8 @@ button{
 .cyan{
     background-color: orange;
     border: none;
+    grid-area: 5/ 3 / 5 /5;
+    width: 100%;
 }
 .minus,.times,.plus{
     border-right: none;
